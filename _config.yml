@@ -1,10 +1,5 @@
 # Jekyll Configuration
 theme: jekyll-theme-minimal
-# --- Required options --- #
-# Name of website
 title: Yulun Zhuang
 description: B.Eng from SUSTech
-# Your name to show in the footer
-author: Yulun Zhuang
-
-logo: img/logo.jpg
+logo: img/logo2.jpg

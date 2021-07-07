@@ -1,13 +1,34 @@
-## Welcome to GitHub Pages
+---
+layout: default
+---
+# About Me
+- CV : [My Resume](docs/Arno_s_Resume.pdf)
 
-You can use the [editor on GitHub](https://github.com/silvery107/silvery107.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+- GitHub : [silvery107](https://github.com/silvery107)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Email : <z1079931505@gmail.com>
 
-### Jekyll Themes
+# Education
+- *Sep 2018 - June 2022*, Mechanical and Energy Engineering, Southern University of Science and Technology, China
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/silvery107/silvery107.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+    *Bachelor of Engineering*
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+# Experience
+- *Jun 2021 - Oct 2021*, Mechanical Engineering, Tsinghua University, China
+
+    *Visiting Student*
+
+
+# Publications
+- [Height Control and Optimal Torque Planning for Jumping With Wheeled-Bipedal Robots](docs/ARM21_0178.pdf), in ***ICARM*** 2021
+
+    **Y. Zhuang**\*, Y. Xu\*, B. Huang\*, M. Chao, G. Shi, K. Zhang, C. Fu
+
+# Honors and Awards
+
+- *2020 -- 2021:* Top Ten Volunteers of University 
+- *2019 -- 2020:* The First Class of the Merit Student Scholarship 
+- *2019 -- 2020:* Outstanding Student Leaders of University 
+- *2018 -- 2019:* The Second Class of the Merit Student Scholarship 
