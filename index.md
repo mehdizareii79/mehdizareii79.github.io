@@ -1,12 +1,10 @@
 ---
 layout: default
 ---
+
 # About Me
-- CV : [My Resume](docs/Arno_s_Resume.pdf)
 
-- GitHub : [silvery107](https://github.com/silvery107)
-
-- Email : <z1079931505@gmail.com>
+Coming soon...
 
 # Education
 - *Sep 2018 - June 2022*, Mechanical and Energy Engineering, Southern University of Science and Technology, China
@@ -24,7 +22,7 @@ layout: default
 # Publications
 - [Height Control and Optimal Torque Planning for Jumping With Wheeled-Bipedal Robots](docs/ARM21_0178.pdf), in ***ICARM*** 2021
 
-    **Y. Zhuang**\*, Y. Xu\*, B. Huang\*, M. Chao, G. Shi, K. Zhang, C. Fu
+    **Y. Zhuang**\*, Y. Xu\*, B. Huang\*, M. Chao, G. Shi, X. Yang, K. Zhang, C. Fu
 
 # Honors and Awards
 
