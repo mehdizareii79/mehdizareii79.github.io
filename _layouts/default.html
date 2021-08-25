@@ -9,7 +9,7 @@
   {% seo %}
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   
-  <link rel="stylesheet" href="../assets/fontawesome-free-5.15.4-web/css/all.min.css">
+  <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-H2H5LCSDZ9"></script> -->
   <!-- <script>
@@ -35,13 +35,13 @@
       <p>{{ site.description | default: site.github.project_tagline }}</p>
 
       <p class="view">
-        <a href="mailto:{{ site.url_email }}"><i class="fas fa-envelope-square"></i> {{site.url_email}}</a>
+        <i class="fas fa-envelope-square fa-2x fa-fw"></i> <a href="mailto:{{ site.url_email }}">{{site.url_email}}</a>
         <br>
-        <a href="{{ site.url_cv }}"><i class="far fa-file-pdf"></i> [CV]</a>
+        <i class="far fa-file-pdf fa-2x fa-fw"></i> <a href="{{ site.url_cv }}">[CV]</a>
         <br>
-        <a href="{{ site.url_linkedin }}"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <i class="fab fa-linkedin fa-2x fa-fw"></i> <a href="{{ site.url_linkedin }}">LinkedIn</a>
         <br>
-        <a href="{{ site.url_github }}"><i class="fab fa-github-square"></i> GitHub</a>
+        <i class="fab fa-github-square fa-2x fa-fw"></i> <a href="{{ site.url_github }}">GitHub</a>
       </p>
 
     </header>
