@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-
+<!-- ! Don't use autoformat in this page -->
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,17 +10,9 @@
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   
   <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-H2H5LCSDZ9"></script> -->
-  <!-- <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-H2H5LCSDZ9');
-    </script> -->
 
   {% include head-custom.html %}
+  
 </head>
 
 <body>
@@ -34,15 +26,7 @@
 
       <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-      <p class="view">
-        <i class="fas fa-envelope-square fa-2x fa-fw"></i> <a href="mailto:{{ site.url_email }}">{{site.url_email}}</a>
-        <br>
-        <i class="far fa-file-pdf fa-2x fa-fw"></i> <a href="{{ site.url_cv }}">[CV]</a>
-        <br>
-        <i class="fab fa-linkedin fa-2x fa-fw"></i> <a href="{{ site.url_linkedin }}">LinkedIn</a>
-        <br>
-        <i class="fab fa-github-square fa-2x fa-fw"></i> <a href="{{ site.url_github }}">GitHub</a>
-      </p>
+      {% include header-custom.html %}
 
     </header>
     <section>
