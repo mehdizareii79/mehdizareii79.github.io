@@ -7,8 +7,8 @@
 body {
   background-color: #fff;
   padding:50px;
-  font-family:'Times New Roman', Times, serif;
   font-size:16px;
+  font-family:'Times New Roman', Times, serif;
 //   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
@@ -32,6 +32,40 @@ body {
   vertical-align: middle;
   // padding-left: 20px;
 }
+
+table.projects{
+  margin-bottom: 0px;
+}
+
+.projects td:nth-child(1) {
+  width: 30%;
+}
+
+.projects td:nth-child(2) {
+  width: 70%;
+}
+
+.experience td:nth-child(1) {
+  width: 10%;
+}
+
+.experience td:nth-child(2) {
+  width: 90%;
+}
+
+table.experience{
+  margin-bottom: 0px;
+  font-size:18px;
+}
+
+.experience td{
+  border: none;
+}
+
+.experience tr>td{
+  padding-bottom: 20px;
+}
+
 header {
   width:220px; // the left part size
   float:left;
@@ -85,7 +119,8 @@ a {
 
 a:hover, a:focus {
   color:#069;
-  font-weight: bold;
+  // font-weight: bold;
+  font-weight: normal;
 }
 
 a small {
@@ -121,6 +156,7 @@ pre {
 
 table {
   width:100%;
+  table-layout: fixed;
   // border-collapse:collapse;
   border:none;
 }
@@ -219,13 +255,6 @@ hr {
     padding:15px;
   }
 
-  .downloads {
-    width:99%;
-  }
-
-  .downloads li, .downloads li + li + li {
-    width:33%;
-  }
 }
 
 @media print {
