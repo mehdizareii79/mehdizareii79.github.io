@@ -163,7 +163,7 @@ table {
 
 th, td {
   text-align:left;
-  padding:2px 4px;
+  padding:2px 6px;
   border-bottom:1px solid #e5e5e5;
 }
 
@@ -191,10 +191,12 @@ small {
 }
 
 hr {
-  border:0;
+  border:0px;
+  border-top: 1px solid black;
   background:#e5e5e5;
-  height:1px;
+  height:0px;
   margin:0 0 20px;
+  width: 30%;
 }
 
 @media print, screen and (max-width: 960px) {
