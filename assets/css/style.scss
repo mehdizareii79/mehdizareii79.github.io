@@ -5,7 +5,7 @@
 
 
 body {
-  background-color: #fff;
+  background-color: rgba(255,255,255,0);
   padding:50px;
   font-size:16px;
   font-family:'Times New Roman', Times, serif;
@@ -14,14 +14,24 @@ body {
   font-weight:400;
 }
 
+html, body{
+  overflow: auto;
+}
+
 .wrapper {
   width:900px; // total page size
   margin:0 auto;
+  // margin:0;
   vertical-align: middle;
 }
+
 .wrapper img{
   vertical-align: middle;
 }
+
+// div.wrapper{
+//   background-color: rgba(255,255,255,0);
+// }
 
 .icon-links{
   display: table;

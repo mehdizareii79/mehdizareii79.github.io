@@ -7,12 +7,11 @@ This is my personal website.  Click 🖕 to access.
 ## TODO
 
 - [x] Add a section for my course projects.
-
 - [x] Change the layout to be more fashionable.
-
-- [ ] Add some media to my publications.
-
-- [ ] Add a background. A dynamic one would be better.
+- [x] Add some media to my publications.
+- [x] Add a background. A dynamic one would be better.
+- [ ] Add a catalog for fast linking.
+- [ ] Add a background color.
 
 ## Reference
 
@@ -21,3 +20,5 @@ This is my personal website.  Click 🖕 to access.
 - [Homepage of Bodun Hu](https://www.bodunhu.com/)
 
 - [Homepage of Dr. Fabian Stöckl](https://fabian-stoeckl.com/)
+
+- [Canvas Nest](https://github.com/hustcc/canvas-nest.js)
