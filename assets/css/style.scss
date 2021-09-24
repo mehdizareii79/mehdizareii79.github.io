@@ -76,6 +76,39 @@ table.experience{
   padding-bottom: 20px;
 }
 
+.round_img {
+  border-radius: 50%;
+}
+
+table.jump_link{
+  margin-bottom: 0px;
+}
+
+.jump_link td:nth-child(1) {
+  width: 10%;
+}
+.jump_link td:nth-child(2) {
+  width: 80%;
+}
+.jump_link td:nth-child(3) {
+  width: 10%;
+} 
+
+// .jump_link th, td{
+//   text-align: center;
+// }
+
+.jump_link a{
+  // font-size: 20px;
+  color: #222;
+}
+
+button{
+  width: 100%;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 header {
   width:220px; // the left part size
   float:left;

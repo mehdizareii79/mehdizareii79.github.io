@@ -10,7 +10,7 @@ This is my personal website.  Click 🖕 to access.
 - [x] Change the layout to be more fashionable.
 - [x] Add some media to my publications.
 - [x] Add a background. A dynamic one would be better.
-- [ ] Add a catalog for fast linking.
+- [x] Add a catalog for fast linking.
 - [ ] Add a background color.
 
 ## Reference
