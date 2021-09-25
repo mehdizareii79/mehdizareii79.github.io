@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-
+@import "button.css";
 
 body {
   background-color: rgba(255,255,255,0);
@@ -80,23 +80,20 @@ table.experience{
   border-radius: 50%;
 }
 
-table.jump_link{
-  margin-bottom: 0px;
-}
-
 .jump_link td:nth-child(1) {
-  width: 10%;
+  width: 7%;
 }
 .jump_link td:nth-child(2) {
-  width: 80%;
+  width: 86%;
 }
 .jump_link td:nth-child(3) {
-  width: 10%;
+  width: 7%;
 } 
 
-// .jump_link th, td{
-//   text-align: center;
-// }
+.jump_link td{
+  // text-align: center;
+  border: none;
+}
 
 .jump_link a{
   // font-size: 20px;
@@ -105,8 +102,8 @@ table.jump_link{
 
 button{
   width: 100%;
-  font-size: 17px;
-  font-family: 'Times New Roman', Times, serif;
+  // font-size: 17px;
+  // font-family: 'Times New Roman', Times, serif;
 }
 
 header {
@@ -206,7 +203,7 @@ table {
 
 th, td {
   text-align:left;
-  padding:2px 6px;
+  padding:4px 6px;
   border-bottom:1px solid #e5e5e5;
 }
 
