@@ -2,7 +2,7 @@
 
 Welcome! 
 
-This is my personal website.  Click 🖕 to access.
+This is my personal website.  Click :point_up_2: to access.
 
 ## TODO
 
@@ -11,7 +11,9 @@ This is my personal website.  Click 🖕 to access.
 - [x] Add some media to my publications.
 - [x] Add a background. A dynamic one would be better.
 - [x] Add navigation buttons for fast linking.
-- [ ] Add som background colors.
+- [ ] Add color blocks on the top and bottom.
+
+
 
 ## Reference
 
@@ -24,3 +26,5 @@ This is my personal website.  Click 🖕 to access.
 - [Canvas Nest](https://github.com/hustcc/canvas-nest.js)
 
 - [Buttons](https://codepen.io/ben_jammin/pen/syaCq)
+
+- [Video](https://www.w3schools.com/tags/tag_video.asp)

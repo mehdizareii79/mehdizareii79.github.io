@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 <!-- ! Don't use autoformat in this page -->
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,39 +9,44 @@
 
   {% seo %}
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-  
   <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
 
   {% include head-custom.html %}
-  
 </head>
 
 <body>
-
   <div class="wrapper">
     <header>
-      <h1>{{ site.title | default: site.github.repository_name }}</a></h1>
-
+      
       {% if site.logo %}
       <img src="{{site.logo | relative_url}}" alt="Logo" width="200" class="round_img"/>
       {% endif %}
-
+      <br>
+      <h1 style="margin: 20px 0 0;">{{ site.title | default: site.github.repository_name }}</a></h1>
       <p>{{ site.description | default: site.github.project_tagline }}</p>
 
       {% include header-custom.html %}
-
     </header>
+
     <section>
 
       {{ content }}
 
     </section>
+
     <footer>
       {% include footer.html %}
     </footer>
   </div>
+<!-- 
+  <div id="bottom_footer" class="bottom">
+    <footer class="inner">
+      <p>Test bottom here.</p>
+    </footer>
+  </div> -->
 
   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  <!-- ! Canvas Script -->
   <script type="text/javascript" color="0,0,0" opacity='0.7' zIndex="-2" count="80" src="../assets/js/canvas_nest.js"></script>
 </body>
 

@@ -1,11 +1,11 @@
 # Jekyll Configuration
 theme: jekyll-theme-minimal
 title: Yulun Zhuang
-description: Undergraduate at SUSTech, China
+description: Undergraduate at SUSTech
 logo: assets/img/me_mirror_square.jpg
 google_analytics: G-H2H5LCSDZ9
 url_cv: /docs/CV_Yulun_Zhuang.pdf
 url_github: https://github.com/silvery107
 url_email: z1079931505@gmail.com
-url_linkedin: https://www.linkedin.com/in/yulun-arno-zhuang-744735173/
+url_linkedin: https://www.linkedin.com/in/yulun107
 icon: assets/img/logo_square.ico

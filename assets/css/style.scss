@@ -5,14 +5,27 @@
 @import "button.css";
 
 body {
-  background-color: rgba(255,255,255,0);
+  background: #f2f2f2;
   padding:50px;
   font-size:16px;
   font-family:'Times New Roman', Times, serif;
-//   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
+
+// #bottom_footer {
+//   background: #212121;
+// }
+// .bottom {
+//   width: 100%;
+// }
+
+// .inner {
+//   position: relative;
+//   max-width: 640px;
+//   padding: 20px 10px;
+//   margin: 0 auto;
+// }
 
 html, body{
   overflow: auto;
@@ -48,11 +61,11 @@ html, body{
 // }
 
 .projects td:nth-child(1) {
-  width: 30%;
+  width: 35%;
 }
 
 .projects td:nth-child(2) {
-  width: 70%;
+  width: 65%;
 }
 
 .experience td:nth-child(1) {
@@ -81,10 +94,10 @@ table.experience{
 }
 
 .jump_link td:nth-child(1) {
-  width: 7%;
+  width: 86%;
 }
 .jump_link td:nth-child(2) {
-  width: 86%;
+  width: 7%;
 }
 .jump_link td:nth-child(3) {
   width: 7%;
@@ -102,8 +115,6 @@ table.experience{
 
 button{
   width: 100%;
-  // font-size: 17px;
-  // font-family: 'Times New Roman', Times, serif;
 }
 
 header {
@@ -221,6 +232,11 @@ img {
   vertical-align:middle;
 }
 
+video {
+  max-width: 100%;
+  vertical-align:middle;
+}
+
 strong {
   color:#222;
   font-weight:700;
@@ -275,6 +291,16 @@ hr {
 }
 
 @media print, screen and (max-width: 720px) {
+  // the buttons' persent-width in a mobile view (web-width less than 720px)
+  .jump_link td:nth-child(1) {
+    width: 68%;
+  }
+  .jump_link td:nth-child(2) {
+    width: 16%;
+  }
+  .jump_link td:nth-child(3) {
+    width: 16%;
+  } 
   body {
     word-wrap:break-word;
   }
