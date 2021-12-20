@@ -11,7 +11,7 @@ This is my personal website.  Click :point_up_2: to access.
 - [x] Add some media to my publications.
 - [x] Add a background. A dynamic one would be better.
 - [x] Add navigation buttons for fast linking.
-- [ ] Add color blocks on the top and bottom.
+- [x] Add a background color.
 
 
 
