@@ -42,10 +42,6 @@ html, body{
   margin-right: auto;
 }
 
-img.zoom {
-  cursor: zoom-in;
-}
-
 // ! header jump buttons
 table.jump_link {
   width: fit-content;
@@ -63,7 +59,6 @@ table.jump_link {
   /* font-size: 20px; */
   color: #222;
 }
-  
 
 // ! projects custom
 .projects td:nth-child(1) {

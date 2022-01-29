@@ -1,3 +1,7 @@
+img.zoom {
+  cursor: zoom-in;
+}
+
 .image-cover-modal {
   display: flex;
   align-items: center;
