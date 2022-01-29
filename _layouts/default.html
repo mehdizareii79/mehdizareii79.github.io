@@ -22,8 +22,8 @@
       <img src="{{site.logo | relative_url}}" alt="Logo" width="200" class="round_img"/>
       {% endif %}
       <br>
-      <h1 style="margin: 20px 0 0;">{{ site.title | default: site.github.repository_name }}</a></h1>
-      <p>{{ site.description | default: site.github.project_tagline }}</p>
+      <h1 style="margin: 0; text-align: center;">{{ site.title }}</a></h1>
+      <p style="text-align: center;">{{ site.description }}</p>
 
       {% include header-custom.html %}
     </header>

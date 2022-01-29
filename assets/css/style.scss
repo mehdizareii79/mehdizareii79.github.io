@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 @import "button.css";
 @import "img_zoom.css";
-@import "jump_link.css";
+// @import "jump_link.css";
 
 body {
   background: #f2f2f2;
@@ -36,11 +36,34 @@ html, body{
 .round_img {
   border-radius: 50%;
   border-bottom: solid;
+  // * make images centering
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .zoom img{
   cursor: zoom-in;
 }
+
+// ! header jump buttons
+table.jump_link {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.jump_link tbody{
+  display: block;
+}
+.jump_link td{
+  /* text-align: center; */
+  border: none;
+}
+.jump_link a{
+  /* font-size: 20px; */
+  color: #222;
+}
+  
 
 // ! projects custom
 .projects td:nth-child(1) {
@@ -89,7 +112,7 @@ table.award{
   margin-bottom: 0px;
 }
 
-button{
+button.button{
   width: 100%;
 }
 
@@ -278,15 +301,21 @@ hr {
 
 @media print, screen and (max-width: 720px) {
   // the buttons' persent-width in a mobile view (web-width less than 720px)
-  .jump_link td:nth-child(1) {
-    width: 68%;
+  // .jump_link td:nth-child(1) {
+  //   width: 68%;
+  // }
+  // .jump_link td:nth-child(2) {
+  //   width: 16%;
+  // }
+  // .jump_link td:nth-child(3) {
+  //   width: 16%;
+  // } 
+  .jump_link tbody{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
-  .jump_link td:nth-child(2) {
-    width: 16%;
-  }
-  .jump_link td:nth-child(3) {
-    width: 16%;
-  } 
   body {
     word-wrap:break-word;
   }
