@@ -12,19 +12,17 @@ This is my personal website.  Click :point_up_2: to access.
 - [x] Add a background. A dynamic one would be better.
 - [x] Add navigation buttons for fast linking.
 - [x] Add a background color.
+- [x] Add image zooming in/out functions.
+- [ ] add top and bottom bars showing the ends of page
 
 
 
 ## Reference
 
-- [The Minimal theme](https://github.com/pages-themes/minimal)
-
+- [The Minimal Theme](https://github.com/pages-themes/minimal)
 - [Homepage of Bodun Hu](https://www.bodunhu.com/)
-
 - [Homepage of Dr. Fabian Stöckl](https://fabian-stoeckl.com/)
-
 - [Canvas Nest](https://github.com/hustcc/canvas-nest.js)
-
 - [Buttons](https://codepen.io/ben_jammin/pen/syaCq)
-
 - [Video](https://www.w3schools.com/tags/tag_video.asp)
+- [Image Zooming](https://blog.walterlv.com/post/create-click-to-zoom-image-for-web-pages.html)

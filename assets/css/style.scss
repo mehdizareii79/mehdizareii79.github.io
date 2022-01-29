@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 @import "button.css";
+@import "img_zoom.css";
+@import "jump_link.css";
 
 body {
   background: #f2f2f2;
@@ -14,22 +16,10 @@ body {
 }
 
 html, body{
-  overflow: auto;
+  overflow: auto; // scrolling
 }
 
-.wrapper {
-  width:900px; // total page size
-  margin:0 auto;
-  // margin:0;
-  vertical-align: middle;
-}
-
-.wrapper img{
-  vertical-align: middle;
-}
-.award {
-  margin-bottom: 0px;
-}
+// TODO add a top and bottom bar showing the ends of the page
 // div.wrapper{
 //   background-color: rgba(255,255,255,0);
 // }
@@ -41,61 +31,6 @@ html, body{
 .sub-link{
   display: table-cell;
   vertical-align: middle;
-  // padding-left: 20px;
-}
-
-// table.projects{
-//   margin-bottom: 0px;
-// }
-
-.projects td:nth-child(1) {
-  width: 35%;
-}
-
-.projects td:nth-child(2) {
-  width: 65%;
-}
-
-.experience td:nth-child(1) {
-  width: 10%;
-}
-
-.experience td:nth-child(2) {
-  width: 90%;
-}
-
-.award td:nth-child(1) {
-  width: 22%;
-}
-
-.award td:nth-child(2) {
-  width: 78%;
-}
-
-table.experience{
-  margin-bottom: 0px;
-  font-size:18px;
-}
-
-.experience td{
-  border: none;
-}
-
-.experience tr>td{
-  padding-bottom: 20px;
-}
-
-table.award{
-  margin-bottom: 0px;
-  font-size:18px;
-}
-
-.award td{
-  border: none;
-}
-
-.award tr>td{
-  padding-bottom: 20px;
 }
 
 .round_img {
@@ -103,45 +38,87 @@ table.award{
   border-bottom: solid;
 }
 
-.jump_link td:nth-child(1) {
-  width: 86%;
+.zoom img{
+  cursor: zoom-in;
 }
-.jump_link td:nth-child(2) {
-  width: 7%;
-}
-.jump_link td:nth-child(3) {
-  width: 7%;
-} 
 
-.jump_link td{
-  // text-align: center;
+// ! projects custom
+.projects td:nth-child(1) {
+  width: 35%;
+}
+.projects td:nth-child(2) {
+  width: 65%;
+}
+
+// ! experience custom
+table.experience{
+  margin-bottom: 0px;
+  font-size:18px;
+}
+.experience td{
   border: none;
 }
+.experience tr>td{
+  padding-bottom: 20px;
+}
+.experience td:nth-child(1) {
+  width: 10%;
+}
+.experience td:nth-child(2) {
+  width: 90%;
+}
 
-.jump_link a{
-  // font-size: 20px;
-  color: #222;
+// ! award custom
+table.award{
+  margin-bottom: 0px;
+  font-size:18px;
+}
+.award td{
+  border: none;
+}
+.award tr>td{
+  padding-bottom: 20px;
+}
+.award td:nth-child(1) {
+  width: 22%;
+}
+.award td:nth-child(2) {
+  width: 78%;
+}
+.award {
+  margin-bottom: 0px;
 }
 
 button{
   width: 100%;
 }
 
+// ! wrapper div
+.wrapper {
+  width:900px; // *total page size
+  margin:0 auto;
+  vertical-align: middle;
+}
+
+.wrapper img{
+  vertical-align: middle;
+}
+
 header {
-  width:220px; // the left part size
+  width:220px; // *the left part size
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
 section {
-  width:630px; // the right part size
+  width:630px; // *the right part size
   float:right;
   padding-bottom:50px;
 }
 
 footer {
-  width:220px; // keep the same as header
+  width:220px; // *keep the same as header
   float:left;
   position:fixed;
   bottom:50px;
@@ -218,7 +195,6 @@ pre {
 table {
   width:100%;
   table-layout: fixed;
-  // border-collapse:collapse;
   border:none;
 }
 
