@@ -26,3 +26,4 @@ This is my personal website.  Click :point_up_2: to access.
 - [Buttons](https://codepen.io/ben_jammin/pen/syaCq)
 - [Video](https://www.w3schools.com/tags/tag_video.asp)
 - [Image Zooming](https://blog.walterlv.com/post/create-click-to-zoom-image-for-web-pages.html)
+- [Favicon Generator](https://redketchup.io/favicon-generator)
