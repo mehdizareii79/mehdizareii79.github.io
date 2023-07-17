@@ -1,28 +1,129 @@
 <table class="projects">
   <tbody>
-      <!-- ! ROB 550 Botlab -->
-      <tr>
-        <td>
-          <video src="assets/img/Kinapped_cat_crop.mp4" width="250" controls="controls" muted="muted"></video>
-        </td>
-        <td valign="top" align="left">
-          <p style="font-size:18px;margin-bottom: 0px;">
-            <font color="black"><b>Robotics System Lab for MBot Autonomy</b></font>
-          </p>
-          <p>
-            [<a href="https://github.com/silvery107/silvery-botlab-f22" target="_blank">
-              Code
-            </a>]
-            [<a href="https://github.com/silvery107/silvery-botlab-f22/blob/main/data/S2T1_Botlab_Report.pdf" target="_blank">
-              PDF
-            </a>]
-            <br>
-            In the Botlab, movement control, obstacle detection, maze exploration, and self-localization functionality was developed on the MBot robot, a mobile robot platform.
-            It is designed to explore the fundamentals of robot autonomy by developing MBot with autonomous mapping, localization, and exploration capabilities. 
-            <b>Winner</b> among 24 teams in the final competition.
-          </p>
-        </td>
-      </tr>
+    <!-- ! Deep RL for MPC Control of Quadruped Locomotion -->
+    <tr>
+      <td>
+        <img src="assets/img/MPC_Stair_Demo.gif" width="250" class="zoom">
+      </td>
+      <td valign="top" align="left">
+        <p style="font-size:18px;margin-bottom: 0px;">
+          <font color="black"><b>Deep RL for MPC of Quadruped Locomotion</b></font>
+        </p>
+        <p>
+          [<a href="https://github.com/silvery107/rl-mpc-locomotion" target="_blank">
+            Code
+          </a>]
+          [<a href="https://docs.google.com/presentation/d/18bznpYrkCPnhCisySPDz18hvL3Ytere7JiJEbdLvpgU/edit?usp=sharing" target="_blank">
+            Slides
+          </a>]
+          [<a href="assets/img/MPC_Sim2Real.gif" target="_blank">
+            Sim2Real
+          </a>]
+          [<a href="assets/img/RL_Paraller_16.gif" target="_blank">
+            Parallel Training
+          </a>]
+          <br>
+          Transferring MIT Cheetah controller to NVIDIA Isaac Gym to control Aliengo quadruped robot.
+          Building neural network policy and using PPO algorithm to train parameters of the controller.
+        </p>
+      </td>
+    </tr>
+    <!-- ! Bayesian Optimization for MPPI Planar Pushing -->
+    <tr>
+      <td>
+        <img src="assets/img/bayesian_opt_obstacle_pushing.png" width="250" class="zoom">
+      </td>
+      <td valign="top" align="left">
+        <p style="font-size:18px;margin-bottom: 0px;">
+          <font color="black"><b>Bayesian Optimization for MPPI Planar Pushing</b></font>
+        </p>
+        <p>
+          [<a href="https://github.com/silvery107/bayesian-opt-gpytorch" target="_blank">
+            Code
+          </a>]
+          [<a href="docs/Bayesian_Optimization_for_MPPI_Planar_Pushing_Report.pdf" target="_blank">
+            PDF
+          </a>]
+          [<a href="assets/img/bayesian_opt_algorithm.png" target="_blank">
+            BOA
+          </a>]
+          <br>
+          Self implemented Bayesian Optimization Algorithm (BOA) in PyTorch for autotuning the hyperparameters of Model Predictive Path Integral (MPPI) control to solve a planar box pushing task with non-trivial obstacles.
+        </p>
+      </td>
+    </tr>
+    <!-- ! Single-Image to Camera Pose with iNeRF and PoseCNN -->
+    <tr>
+      <td>
+        <img src="assets/img/fast_inerf_demo.gif" width="250" class="zoom">
+      </td>
+      <td valign="top" align="left">
+        <p style="font-size:18px;margin-bottom: 0px;">
+          <font color="black"><b>Single-Image to Camera Pose with iNeRF and PoseCNN</b></font>
+        </p>
+        <p>
+          [<a href="https://github.com/silvery107/fast-inerf" target="_blank">
+            Code
+          </a>]
+          [<a href="docs/fast_inerf_report.pdf" target="_blank">
+            PDF
+          </a>]
+          [<a href="assets/img/fast_inerf_system.png" target="_blank">
+            System Diagram
+          </a>]
+          <br>
+          We present an efficient and robust system for view synthesis and pose estimation by integrating PoseCNN and iNeRF. Our method leverages the pose and object segmentation predictions from PoseCNN to improve the initial camera pose estimation and accelerate the optimization process in iNeRF.
+        </p>
+      </td>
+    </tr>
+    <!-- ! Dynamic Object Removing SLAM adapting MonoRec -->
+    <tr>
+      <td>
+        <img src="assets/img/monorec_slam_demo.gif" width="250" class="zoom">
+      </td>
+      <td valign="top" align="left">
+        <p style="font-size:18px;margin-bottom: 0px;">
+          <font color="black"><b>Dynamic Object Removing SLAM adapting MonoRec</b></font>
+        </p>
+        <p>
+          [<a href="https://github.com/silvery107/monorec-slam" target="_blank">
+            Code
+          </a>]
+          [<a href="docs/monorec_slam_report.pdf" target="_blank">
+            PDF
+          </a>]
+          [<a href="assets/img/monorec_slam_system.png" target="_blank">
+            System Diagram
+          </a>]
+          <br>
+          We present a dynamic object removing SLAM method named MonoRec-SLAM. 
+          Our method adapts the MaskModule from MonoRec and achieves an average APE improvement by 6.03% on KITTI dataset, obtains a more static map of the scenes, and achieves a great balance between real-time capability and dynamic object masking.
+        </p>
+      </td>
+    </tr>
+    <!-- ! ROB 550 Botlab -->
+    <tr>
+      <td>
+        <video src="assets/img/Kinapped_cat_crop.mp4" width="250" controls="controls" muted="muted"></video>
+      </td>
+      <td valign="top" align="left">
+        <p style="font-size:18px;margin-bottom: 0px;">
+          <font color="black"><b>Robotics System Lab for MBot Autonomy</b></font>
+        </p>
+        <p>
+          [<a href="https://github.com/silvery107/silvery-botlab-f22" target="_blank">
+            Code
+          </a>]
+          [<a href="https://github.com/silvery107/silvery-botlab-f22/blob/main/data/S2T1_Botlab_Report.pdf" target="_blank">
+            PDF
+          </a>]
+          <br>
+          In the Botlab, movement control, obstacle detection, maze exploration, and self-localization functionality was developed on the MBot robot, a mobile robot platform.
+          It is designed to explore the fundamentals of robot autonomy by developing MBot with autonomous mapping, localization, and exploration capabilities. 
+          <b>Winner</b> among 24 teams in the final competition.
+        </p>
+      </td>
+    </tr>
     <!-- ! ROB 550 Armlab -->
     <tr>
       <td>
@@ -42,31 +143,6 @@
           <br>
           In the Armlab, a 5-DOF robotic arm fully autonomously arranges blocks of different sizes, colors and positions into the desired arrangement. Analytical inverse kinematics is used to determine the appropriate waypoints. An overhead LiDAR Camera is utilized to identify blocks on the board.
           <b>Winner</b> among 24 teams in the final competition.
-        </p>
-      </td>
-    </tr>
-    <!-- ! Deep RL for MPC Control of Quadruped Locomotion -->
-    <tr>
-      <td>
-        <img src="assets/img/MPC_Stair_Demo.gif" width="250" class="zoom">
-      </td>
-      <td valign="top" align="left">
-        <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Deep RL for MPC of Quadruped Locomotion</b></font>
-        </p>
-        <p>
-          [<a href="https://github.com/silvery107/rl-mpc-locomotion" target="_blank">
-            Code
-          </a>]
-          [<a href="assets/img/MPC_Sim2Real.gif" target="_blank">
-            Sim2Real
-          </a>]
-          [<a href="assets/img/RL_Paraller_16.gif" target="_blank">
-            Parallel Training
-          </a>]
-          <br>
-          Transferring MIT Cheetah controller to NVIDIA Isaac Gym to control Aliengo quadruped robot.
-          Building neural network policy and using PPO algorithm to train parameters of the controller.
         </p>
       </td>
     </tr>
