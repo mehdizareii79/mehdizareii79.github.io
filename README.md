@@ -13,7 +13,8 @@ This is my personal website.  Click :point_up_2: to access.
 - [x] Add navigation buttons for fast linking.
 - [x] Add a background color.
 - [x] Add image zooming in/out functions.
-- [ ] add top and bottom bars showing the ends of page
+- [x] Add a dark mode switch.
+- [ ] Add top and bottom bars showing the ends of page.
 
 
 
@@ -27,3 +28,4 @@ This is my personal website.  Click :point_up_2: to access.
 - [Video](https://www.w3schools.com/tags/tag_video.asp)
 - [Image Zooming](https://blog.walterlv.com/post/create-click-to-zoom-image-for-web-pages.html)
 - [Favicon Generator](https://redketchup.io/favicon-generator)
+- [Dark Mode](https://github.com/darkreader/darkreader#:~:text=Using%20Dark%20Reader%20for%20a%20website)
