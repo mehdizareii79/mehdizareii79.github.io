@@ -14,6 +14,8 @@ This is my personal website.  Click :point_up_2: to access.
 - [x] Add a background color.
 - [x] Add image zooming in/out functions.
 - [x] Add a dark mode switch.
+- [x] Add a floating action button.
+- [x] Add text showing last updated date.
 - [ ] Add top and bottom bars showing the ends of page.
 
 
@@ -29,3 +31,8 @@ This is my personal website.  Click :point_up_2: to access.
 - [Image Zooming](https://blog.walterlv.com/post/create-click-to-zoom-image-for-web-pages.html)
 - [Favicon Generator](https://redketchup.io/favicon-generator)
 - [Dark Mode](https://github.com/darkreader/darkreader#:~:text=Using%20Dark%20Reader%20for%20a%20website)
+- Last Updated Date
+    - [Github API request repo info](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#get-a-repository)
+    - [JS Http request](https://codepen.io/chelsslehc/pen/eaVXQj)
+    - [Http Request with authorization header](https://stackoverflow.com/questions/33505130/how-to-assign-basic-authentication-header-to-xmlhttprequest)
+- [Floating Action Button](https://codepen.io/cheryllaird/pen/LZWYGV)

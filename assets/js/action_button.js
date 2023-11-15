@@ -87,8 +87,8 @@ function openActions(button) {
         
         button.style.width = dimensions.width + 'px';
         button.style.height = dimensions.height + 'px';        
-        button.style.borderRadius = '0';
-        button.style.backgroundColor = 'rgba(255, 152, 0, 0)';
+        button.style.borderRadius = '3px';
+        // button.style.backgroundColor = 'rgba(255, 152, 0, 0)';
         
         list.style.opacity = '1';
     }
