@@ -1,0 +1,52 @@
+$action-color: #727272;
+
+* {
+    box-sizing: border-box;
+}
+
+.action-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba($action-color, 1);
+    color: #FFF;
+    border-radius: 50%;
+    cursor: pointer; 
+    overflow: hidden;
+}
+
+.action-list {
+    color: initial;
+    font-size: initial;
+    text-align: initial;
+    line-height: initial;
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.action-list-item {
+    padding: 12px;
+    white-space: nowrap;
+    
+    &:hover {
+        background-color: $action-color;
+        cursor: pointer;
+    }
+    
+    i, span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    i {
+        margin-right: 5px;
+    }
+}
