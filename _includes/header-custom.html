@@ -26,39 +26,47 @@
 </table>
 
 <!-- Media Links with Logo -->
+<div class="icon-links">
 <!-- ! CV -->
-<div class="icon-links">
     <div class="sub-link">
-        <i class="far fa-file-pdf fa-2x fa-fw"></i>
+        <a href="{{ site.url_cv | default: site.url}}" target="_blank">
+            <i class="fa-solid fa-file-pdf fa-2x fa-fw"></i>
+        </a>
     </div>
-    <div class="sub-link">
-        [<a href="{{ site.url_cv | default: site.url}}" target="_blank">CV</a>]
-    </div>
-</div>
 <!-- ! Github -->
-<div class="icon-links">
     <div class="sub-link">
-        <i class="fab fa-github-square fa-2x fa-fw"></i>
+        <a href="{{ site.url_github }}" target="_blank">
+            <i class="fa-brands fa-square-github fa-2x fa-fw"></i>
+        </a>
     </div>
-    <div class="sub-link">
-        <a href="{{ site.url_github }}" target="_blank">silvery107</a>
-    </div>
-</div>
 <!-- ! LinkedIn -->
-<div class="icon-links">
     <div class="sub-link">
-        <i class="fab fa-linkedin fa-2x fa-fw"></i>
+        <a href="{{ site.url_linkedin }}" target="_blank">
+            <i class="fa-brands fa-linkedin fa-2x fa-fw"></i>
+        </a>
     </div>
-    <div class="sub-link">
-        <a href="{{ site.url_linkedin }}" target="_blank">yulun107</a>
-    </div>
+<!-- ! Steam -->
+    <!-- <div class="sub-link">
+        <a href="{{ site.url_steam }}" target="_blank">
+            <i class="fa-brands fa-square-steam fa-2x fa-fw"></i>
+        </a>
+    </div> -->
+<!-- ! Google Scholar -->
+    <!-- <div class="sub-link">
+        <a href="{{ site.url_scholar }}" target="_blank">
+            <i class="fa-brands fa-google-scholar fa-2x fa-fw"></i>
+        </a>
+    </div> -->
 </div>
+
 <!-- ! Email -->
 <div class="icon-links">
     <div class="sub-link">
-        <i class="fas fa-envelope-square fa-2x fa-fw"></i>
+        <a href="mailto:{{ site.url_email }}" target="_blank">
+            <i class="fa-solid fa-square-envelope fa-2x fa-fw"></i>
+        </a>
     </div>
     <div class="sub-link">
-        <a href="mailto:{{ site.url_email }}" target="_blank">{{site.url_email}}</a>
+        {{ site.url_email }}
     </div>
 </div>

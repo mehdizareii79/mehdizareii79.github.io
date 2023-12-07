@@ -27,11 +27,18 @@ html, body{
 
 .icon-links{
   display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 
 .sub-link{
   display: table-cell;
   vertical-align: middle;
+}
+
+.sub-link a{
+  color: #727272;
 }
 
 .round_img {
