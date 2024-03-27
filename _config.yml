@@ -1,10 +1,10 @@
 # Jekyll Configuration
 theme: jekyll-theme-minimal
 title: Yulun Zhuang
-description: Robotics MS at UMich
+description: Robotics PhD at UMich
 logo: assets/img/head.png
 google_analytics: G-H2H5LCSDZ9
-url_cv: docs/CV_Yulun_Zhuang.pdf
+# url_cv: docs/CV_Yulun_Zhuang.pdf
 url_github: https://github.com/silvery107
 url_email: yulunz@umich.edu
 url_linkedin: https://www.linkedin.com/in/yulun107
