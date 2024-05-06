@@ -36,3 +36,5 @@ This is my personal website.  Click :point_up_2: to access.
     - [JS Http request](https://codepen.io/chelsslehc/pen/eaVXQj)
     - [Http Request with authorization header](https://stackoverflow.com/questions/33505130/how-to-assign-basic-authentication-header-to-xmlhttprequest)
 - [Floating Action Button](https://codepen.io/cheryllaird/pen/LZWYGV)
+- [Top Navigation Bar](https://github.com/yaoyao-liu/yaoyao-liu.github.io)
+- [Homepage of Yaoyao Liu](https://www.cs.jhu.edu/~yyliu/)
