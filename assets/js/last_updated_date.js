@@ -22,6 +22,6 @@ xhttp.onreadystatechange = function()
 };
 
 xhttp.open("GET", `https://api.github.com/repos/silvery107/${desiredRepo}`, true);
-xhttp.setRequestHeader('Authorization', 'Bearer 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');
+xhttp.setRequestHeader('Authorization', 'Bearer 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');
 
 xhttp.send();
