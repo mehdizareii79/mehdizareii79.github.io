@@ -13,7 +13,7 @@ xhttp.onreadystatechange = function()
     var day = lastUpdated.getUTCDate();
     var month = lastUpdated.getUTCMonth();
     var year = lastUpdated.getUTCFullYear();
-    $(dateTagClass).text(`Updated ${months[month]} ${day}, ${year}`);
+    $(dateTagClass).text(`Last Updated: ${months[month]} ${day}, ${year}`);
   }
   else if (this.readyState == 4 && this.status == 401) 
   {

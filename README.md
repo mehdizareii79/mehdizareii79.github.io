@@ -2,7 +2,7 @@
 
 Welcome! 
 
-This is my personal website.  Click :point_up_2: to access.
+This is my personal website. Click :point_up_2: to access.
 
 ## TODO
 
@@ -16,8 +16,11 @@ This is my personal website.  Click :point_up_2: to access.
 - [x] Add a dark mode switch.
 - [x] Add a floating action button.
 - [x] Add text showing last updated date.
-- [ ] Add top and bottom bars showing the ends of page.
-
+- [ ] Add a news section for latest updates.
+- [ ] Update the publication section.
+- [ ] Use a SVG image for my name in Chinese.
+- [ ] Separate selected projects into its own page.
+- [ ] Add the moving robot avatar somewhere.
 
 
 ## Reference
