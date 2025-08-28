@@ -16,11 +16,12 @@ This is my personal website. Click :point_up_2: to access.
 - [x] Add a dark mode switch.
 - [x] Add a floating action button.
 - [x] Add text showing last updated date.
-- [ ] Add a news section for latest updates.
+- [x] Add a news section for latest updates.
 - [ ] Update the publication section.
 - [ ] Use a SVG image for my name in Chinese.
-- [ ] Separate selected projects into its own page.
-- [ ] Add the moving robot avatar somewhere.
+- [ ] Move selected projects into its own page.
+- [ ] Add the moving robot avatar somewhere, maybe in the news section?
+- [ ] Maybe we can release the source code of this website?
 
 
 ## Reference
