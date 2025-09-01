@@ -1,8 +1,7 @@
 # [silvery107.github.io](https://silvery107.github.io/)
 
 Welcome! 
-
-This is my personal website. Click :point_up_2: to access.
+This is my personal website.
 
 ## TODO
 
@@ -18,9 +17,10 @@ This is my personal website. Click :point_up_2: to access.
 - [x] Add text showing last updated date.
 - [x] Add a news section for latest updates.
 - [x] Use a SVG image for my name in Chinese.
+- [x] Filter out big files to reduce git history size. 
+- [x] Squash and rewrite for a better git history
 - [ ] Update the publication section.
 - [ ] Move selected projects into its own page.
-- [ ] Filter out big files in the history, rewrite it, and open source the repo.
 
 
 ## Reference
@@ -41,3 +41,4 @@ This is my personal website. Click :point_up_2: to access.
 - [Floating Action Button](https://codepen.io/cheryllaird/pen/LZWYGV)
 - [Top Navigation Bar](https://github.com/yaoyao-liu/yaoyao-liu.github.io)
 - [Homepage of Yaoyao Liu](https://www.cs.jhu.edu/~yyliu/)
+- [git-filter-repo](https://github.com/newren/git-filter-repo)
