@@ -32,8 +32,10 @@
       {% endif %}
       <br>
       <h1 style="margin: 0; text-align: center;">
-        <img src="assets/img/name_kaiti.svg" height="30">
-        <br>
+        {% if site.chinese_name %}
+          <img src="{{ site.chinese_name }}" height="30">
+          <br>
+        {% endif %}
         {{ site.title }}
       </h1>
       <p style="text-align: center;">{{ site.description }}</p>

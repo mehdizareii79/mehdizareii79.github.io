@@ -1,4 +1,6 @@
-const desiredRepo = "silvery107.github.io";
+---
+---
+const desiredRepo = "{{ site.github.repository_nwo }}";
 const dateTagClass = ".date";
 const months = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sep.", "Oct.", "Nov.", "Dec."];
 
@@ -17,11 +19,11 @@ xhttp.onreadystatechange = function()
   }
   else if (this.readyState == 4 && this.status == 401) 
   {
-    $(dateTagClass).text(`Token Expired!`);
+    $(dateTagClass).text(`Last Updated: Fetch Error`);
   }
 };
 
-xhttp.open("GET", `https://api.github.com/repos/silvery107/${desiredRepo}`, true);
+xhttp.open("GET", `https://api.github.com/repos/${desiredRepo}`, true);
 xhttp.setRequestHeader('Authorization', 'Bearer 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');
 
 xhttp.send();
