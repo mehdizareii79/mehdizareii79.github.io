@@ -3,14 +3,13 @@
     <!-- ! Deep RL for MPC Control of Quadruped Locomotion -->
     <tr><td>
       <div class="project_cell">
-        <img src="assets/img/MPC_Stair_Demo.gif" width="250" class="zoom">
+        <img src="assets/img/go2-mpc.gif" width="250" class="zoom">
       </div>
       <div class="project_cell">
         <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Hierarchical RL for MPC of Quadruped Locomotion</b></font>
+          <font color="black"><b>Developing MPC for Quadruped Locomotion</b></font>
         </p>
         <p>
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/rl-mpc-locomotion?style=plastic&logo=github">
           [<a href="https://github.com/silvery107/rl-mpc-locomotion" target="_blank">
             Code
           </a>]
@@ -20,11 +19,15 @@
           <!-- [<a href="assets/img/MPC_Sim2Real.gif" target="_blank">
             Sim2Real
           </a>] -->
-          [<a href="assets/img/RL_Paraller_16.gif" target="_blank">
-            Parallel Training
-          </a>]
+
           <br>
-          Fast simulation and RL training framework for a quadruped locomotion task by dynamically predicting the weight parameters of a MPC controller. The control framework is a hierarchical controller composed of a higher-level policy network and a lower-level model predictive controller.
+          Implementing an MPC Controller for Quadruped Locomotion.<br>
+          Developed a Model Predictive Control (MPC) controller for quadruped robot locomotion (Go2 robot) in the NVIDIA Isaac Simulator. 
+          The controller is based on the paper 
+          <a href="https://dspace.mit.edu/bitstream/handle/1721.1/138000/convex_mpc_2fix.pdf" target="_blank">
+            “Convex Model Predictive Control for Quadrupedal Locomotion”
+          </a>
+          and enables stable, dynamic gait generation in simulation.
         </p>
       </div>
     </td></tr>
