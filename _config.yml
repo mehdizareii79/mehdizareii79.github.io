@@ -2,18 +2,18 @@
 theme: jekyll-theme-minimal
 
 # Basic Information
-title: Yulun Zhuang
-description: Robotics PhD at UMich
-logo: assets/img/cartoon_avatar_high_res.png
+title: Mehdi Zarei
+description: 
+logo: assets/img/cartoon_avatar_high_res.png 
 
 # Contact & Social Links
-url_github: https://github.com/silvery107
-url_email: yulunz@umich.edu
-url_linkedin: https://www.linkedin.com/in/yulun107
-url_steam: https://steamcommunity.com/id/silvery107
-url_scholar: https://scholar.google.com.sg/citations?hl=en&user=z_gDNE0AAAAJ
+url_github: https://github.com/mehdizareii79
+url_email: zmehdi734@gmail.com
+url_linkedin: -
+url_steam: -
+url_scholar: -
 # url_cv: docs/CV_Yulun_Zhuang.pdf
 
 # Optional Settings
-chinese_name: assets/img/name_kaiti.svg
-google_analytics: G-H2H5LCSDZ9
+chinese_name: 
+google_analytics: 
