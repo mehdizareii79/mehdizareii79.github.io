@@ -1,5 +1,6 @@
 <table class="projects">
   <tbody>
+    <!-- ! MPC quadruped -->
     <tr><td>
       <div class="project_cell">
         <img src="assets/img/go2-demo.gif" width="250" class="zoom">
@@ -9,12 +10,6 @@
           <font color="black"><b>Developing MPC for Quadruped Locomotion</b></font>
         </p>
         <p>
-          [<a href="https://docs.google.com/presentation/d/18bznpYrkCPnhCisySPDz18hvL3Ytere7JiJEbdLvpgU/edit?usp=sharing" target="_blank">
-            Slides
-          </a>]
-          <!-- [<a href="assets/img/MPC_Sim2Real.gif" target="_blank">
-            Sim2Real
-          </a>] -->
 
           <br>
           Implementing an MPC Controller for Quadruped Locomotion.<br>
@@ -27,7 +22,8 @@
         </p>
       </div>
     </td></tr>
-    <!-- ! Motion Planning Practice -->
+    
+    <!-- ! single leg jumping -->
     <tr><td>
       <div class="project_cell">
         <img src="assets/img/singleleg-demo.gif" width="250" class="zoom">
@@ -41,11 +37,12 @@
             PDF
           </a>]
           <br>
-          Developed a controller for single-leg jumping of quadruped robots using a variable-stiffness spring and Bézier-based trajectory planning. The method compensates for energy losses due to friction, enabling stable and repeated jumps.
+          Developed a controller for single-leg jumping using a variable-stiffness spring and Bézier-based trajectory planning. The method compensates for energy losses due to friction, enabling stable and repeated jumps.
         </p>
       </div>
     </td></tr>
-    <!-- ! Bayesian Optimization for MPPI Planar Pushing -->
+   
+    <!-- ! PID propreller -->
     <tr><td>
       <div class="project_cell">
         <img src="assets/img/mechat-demo.gif" width="250" class="zoom">
@@ -63,274 +60,6 @@
         </p>
       </div>
     </td></tr>
-    <!-- ! Dynamic Object Removing SLAM with MonoRec -->
-    <tr><td>
-      <div class="project_cell">
-        <img src="assets/img/monorec_slam_demo.gif" width="250" class="zoom">
-      </div>
-      <div class="project_cell">
-        <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Dynamic Object Removing SLAM with MonoRec</b></font>
-        </p>
-        <p>
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/monorec-slam?style=plastic&logo=github">
-          [<a href="https://github.com/silvery107/monorec-slam" target="_blank">
-            Code
-          </a>]
-          [<a href="docs/monorec_slam_report.pdf" target="_blank">
-            PDF
-          </a>]
-          [<a href="assets/img/monorec_slam_system.png" target="_blank">
-            System Diagram
-          </a>]
-          <br>
-          We present a dynamic object removing SLAM method named MonoRec-SLAM. 
-          Our method adapts the MaskModule from MonoRec and achieves an average APE improvement by 6.03% on KITTI dataset, obtains a more static map of the scenes, and achieves a great balance between real-time capability and dynamic object masking.
-        </p>
-      </div>
-    </td></tr>
-    <!-- ! Single-Image to Camera Pose with iNeRF and PoseCNN -->
-    <tr><td>
-      <div class="project_cell">
-        <img src="assets/img/fast_inerf_demo.gif" width="250" class="zoom">
-      </div>
-      <div class="project_cell">
-        <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Single-Image to Camera Pose with iNeRF and PoseCNN</b></font>
-        </p>
-        <p>
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/fast-inerf?style=plastic&logo=github">
-          [<a href="https://github.com/silvery107/fast-inerf" target="_blank">
-            Code
-          </a>]
-          [<a href="docs/fast_inerf_report.pdf" target="_blank">
-            PDF
-          </a>]
-          [<a href="assets/img/fast_inerf_system.png" target="_blank">
-            System Diagram
-          </a>]
-          <br>
-          We present an efficient and robust system for view synthesis and pose estimation by integrating PoseCNN and iNeRF. Our method leverages the pose and object segmentation predictions from PoseCNN to improve the initial camera pose estimation and accelerate the optimization process in iNeRF.
-        </p>
-      </div>
-    </td></tr>
-    <!-- ! ROB 550 Botlab -->
-    <tr><td>
-      <div class="project_cell">
-        <video src="assets/videos/Kinapped_cat_crop.mp4" width="250" controls muted autoplay loop></video>
-      </div>
-      <div class="project_cell">
-        <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Autonomous SLAM and Exploration with MBot</b></font>
-        </p>
-        <p>
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/silvery-botlab-f22?style=plastic&logo=github">
-          [<a href="https://github.com/silvery107/silvery-botlab-f22" target="_blank">
-            Code
-          </a>]
-          [<a href="https://github.com/silvery107/silvery-botlab-f22/blob/main/data/S2T1_Botlab_Report.pdf" target="_blank">
-            PDF
-          </a>]
-          <br>
-          In the Botlab, movement control, obstacle detection, maze exploration, and self-localization functionality was developed on the MBot robot, a mobile robot platform.
-          It is designed to explore the fundamentals of robot autonomy by developing MBot with autonomous mapping, localization, and exploration capabilities. 
-          <b>Winner</b> among 24 teams in the final competition.
-        </p>
-      </div>
-    </td></tr>
-    <!-- ! ROB 550 Armlab -->
-    <tr><td>
-      <div class="project_cell">
-        <img src="assets/img/stack_16_high_crop.gif" height="190" class="zoom">
-      </div>
-      <div class="project_cell">
-        <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Robust Detecting and Palletizing with Robot Arm</b></font>
-        </p>
-        <p>
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/silvery-armlab-f22?style=plastic&logo=github">
-          [<a href="https://github.com/silvery107/silvery-armlab-f22" target="_blank">
-            Code
-          </a>]
-          [<a href="https://github.com/silvery107/silvery-armlab-f22/blob/master/config/s2_t5_armlab_f22_CV.pdf" target="_blank">
-            CV PDF
-          </a>]
-          [<a href="https://github.com/silvery107/silvery-armlab-f22/blob/master/config/s2_t5_armlab_f22_RC.pdf" target="_blank">
-            Control PDF
-          </a>]
-          <!-- [<a href="assets/img/block_detection.png" target="_blank">
-            Block Detections
-          </a>] -->
-          <br>
-          In the Armlab, a 5-DOF robotic arm fully autonomously arranges blocks of different sizes, colors and positions into the desired arrangement. Analytical inverse kinematics is used to determine the appropriate waypoints. An overhead LiDAR Camera is utilized to identify blocks on the board.
-          <b>Winner</b> among 24 teams in the final competition.
-        </p>
-      </div>
-    </td></tr>
-    <!-- ! Mobile Robot Navigation and Control Capstone-->
-    <!-- <tr><td>
-      <div class="project_cell">
-        <video src="assets/videos/ee346-demo.mp4" width="250" controls muted autoplay loop></video>
-      </div>
-      <div class="project_cell">
-        <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Navigation and Lane Following with TurtleBot3</b></font>
-        </p>
-        <p>
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/ee346-capstone-control?style=plastic&logo=github">
-          [<a href="https://github.com/silvery107/ee346-capstone-control" target="_blank">
-            Code
-          </a>]
-          [<a href="https://sites.google.com/view/ee346-capstone-22s-cmdzyl/home" target="_blank">
-            Website
-          </a>]
-          <br>
-          We achieved a multifunctional and integrated system that includes autonomous navigation, 
-          lane following and ArUco detection using TurtleBot3 Burger. 
-          Our system is designed for the competition of finishing a specified task sequence.
-        </p>
-      </div>
-    </td></tr> -->
-    <!-- ! Agile Waste Sorting with Tossing -->
-    <tr><td>
-      <div class="project_cell">
-        <video src="assets/videos/tossing-video-4-3.mp4" width="250" controls muted autoplay loop></video>
-      </div>
-      <div class="project_cell">
-        <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Agile Waste Sorting with Tossing</b></font>
-        </p>
-        <p>
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/ME336-Yellow-Team-Project?style=plastic&logo=github">
-          [<a href="https://github.com/silvery107/ME336-Yellow-Team-Project" target="_blank">
-            Code
-          </a>]
-          [<a href="https://github.com/silvery107/ME336-Yellow-Team-Project/blob/main/projects/ME336_Report.pdf" target="_blank">
-            PDF
-          </a>]
-          <br>
-          Implemented the automatic collection and cleaning of images based on MOG2 algorithm.
-          Deployed and trained YOLOv5 to achieve quick waste classification.
-          Achieved planning for robot arm to pick toss waste on dynamic conveyor belt.
-        </p>
-      </div>
-    </td></tr>
-    <!-- ! NMT with Transformer on Multi30K -->
-    <!-- <tr><td>
-      <div class="project_cell">
-        <img src="https://raw.githubusercontent.com/silvery107/nmt-multi30k-pytorch/main/images/tuning.png" 
-          width="250" class="zoom">
-      </div>
-      <div class="project_cell">
-        <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>NMT with Transformer on Multi30K</b></font>
-        </p>
-        <p>
-          [<a href="https://github.com/silvery107/nmt-multi30k-pytorch" target="_blank">
-            Code
-          </a>]
-          [<a href="https://github.com/silvery107/nmt-multi30k-pytorch/blob/main/docs/Machine_Learning_Project_NMT.pdf" target="_blank">
-            PDF
-          </a>]
-          <br>
-          Implemented a Transformer architecture to realize a full attention neural network that learns to
-          translate German to English. The best model gains a BLEU score up to 37.39, when the minimum
-          frequency of words is selected to be 3.
-        </p>
-      </div>
-    </td></tr> -->
-    <!-- ! Tractor Autonomous Steering Simulation -->
-    <!-- <tr><td>
-      <div class="project_cell">
-        <img src="https://raw.githubusercontent.com/silvery107/ND-agjunction-webots/main/docs/images/tractor_proto.png"
-          width="250" class="zoom">
-      </div>
-      <div class="project_cell">
-        <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Tractor Autonomous Steering Simulation</b></font>
-        </p>
-        <p>
-          [<a href="https://github.com/silvery107/ND-agjunction-webots" target="_blank">
-            Code
-          </a>]
-          [<a href="assets/videos/tractor_demo.mp4" target="_blank">
-            Video
-          </a>]
-          <br>
-          Developed a medium-fidelity model of two tractors in Webots and implemented the tractor model and
-          the control
-          algorithm in Webots, including four-wheel steering capability, body suspension and sensors.
-          This project is collaborated with SUSTech, ND and AgJunction Inc.
-        </p>
-      </div>
-    </td></tr> -->
-    <!-- ! Segway Locomotion -->
-    <!-- <tr><td>
-      <div class="project_cell">
-        <img src="https://raw.githubusercontent.com/silvery107/segway-locomotion-stm32/main/images/image2.png"
-          width="250" class="zoom">
-      </div>
-      <div class="project_cell">
-        <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Segway Locomotion</b></font>
-        </p>
-        <p>
-          [<a href="https://github.com/silvery107/segway-locomotion-stm32" target="_blank">
-            Code
-          </a>]
-          [<a href="assets/videos/blancing.mp4" target="_blank">
-            Video
-          </a>]
-          <br>
-          This project is the locomotion control for a Segway robot with STM32F1.
-          We implemented balance control, speed control, steering control method for the Segway robot
-          together with the Bluetooth debugging function.
-        </p>
-      </div>
-    </td></tr> -->
-    <!-- ! HCI Gesture Control -->
-    <!-- <tr><td>
-      <div class="project_cell">
-        <video src="assets/videos/hci-demo-thin.mp4" width="250" controls muted autoplay loop></video>
-      </div>
-      <div class="project_cell">
-        <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Gesture Recognition for Mouse and Keyboard Control</b></font>
-        </p>
-        <p>
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/hci-gesture-control?style=plastic&logo=github">
-          [<a href="https://github.com/silvery107/hci-gesture-control" target="_blank">
-            Code
-          </a>]
-          <br>
-          Used the watershed algorithm to realize skin color image segmentation, implemented gesture
-          recognition
-          by template matching, and implemented the gesture interaction with mouse and keyboard based on
-          <em>Win32
-            API</em>.
-        </p>
-      </div>
-    </td></tr> -->
-    <!-- ! Fast Photo Mosaic -->
-    <!-- <tr><td>
-      <div class="project_cell" style="border: none;">
-        <img src="https://github.com/silvery107/fast-photo-mosaic/raw/main/images/mixed.png" 
-          width="250" class="zoom">
-      </div>
-      <div class="project_cell" style="border: none;">
-        <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Fast Photo Mosaic</b></font>
-        </p>
-        <p>
-          [<a href="https://github.com/silvery107/fast-photo-mosaic" target="_blank">
-            Code
-          </a>]
-          <br>
-          Designed a feature descriptor based on the mean histogram of the LAB color space, used the
-          pre-computed feature pool to optimize the synthesis speed, and realized the mosaic photo that has
-          better performance than Foto-Mosaik-Edda.
-        </p>
-      </div>
-    </td></tr> -->
+  
   </tbody>
 </table>
